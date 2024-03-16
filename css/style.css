@@ -467,6 +467,7 @@ header.sticky .nav-bar{
   margin-bottom: 80px;
 }
 
+
 .edu-list .item{
   background: var(--card-bg-color);
   box-shadow: var(--box-shadow);
@@ -476,6 +477,13 @@ header.sticky .nav-bar{
   border-radius: 6px;
   transition: .3s ease;
 }
+
+.item i {
+  color: #e34f26; /* HTML5 color */
+  margin-right: 8px; /* Adjust spacing between icon and text */
+  vertical-align: middle; /* Align icon with the text */
+}
+
 
 .edu-list .item .year{
   font-size: var(--small-font-size);
@@ -533,7 +541,7 @@ header.sticky .nav-bar{
 }
 
 .bar .html:before{
-  width: 95%;
+  width: 100%;
 }
 
 .bar .css:before{
